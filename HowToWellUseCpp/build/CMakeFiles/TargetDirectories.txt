@@ -1,0 +1,3 @@
+/home/xion/Documents/HowToWellUseCpp/build/CMakeFiles/test.dir
+/home/xion/Documents/HowToWellUseCpp/build/CMakeFiles/edit_cache.dir
+/home/xion/Documents/HowToWellUseCpp/build/CMakeFiles/rebuild_cache.dir
