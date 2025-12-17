@@ -1,0 +1,185 @@
+Panels:
+  - Class: rviz_common/Displays
+    Help Height: 379
+    Name: Displays
+    Property Tree Widget:
+      Expanded:
+        - /Global Options1
+        - /RobotModel1/Mass Properties1
+        - /RobotModel1/Description Topic1
+        - /RobotModel1/Links1
+        - /TF1
+        - /TF1/Frames1
+        - /TF1/Tree1
+      Splitter Ratio: 0.7915589809417725
+    Tree Height: 902
+  - Class: rviz_common/Views
+    Expanded:
+      - /Current View1
+      - /Current View1/Focal Point1
+    Name: Views
+    Splitter Ratio: 0.5
+  - Class: rviz_common/Transformation
+    Name: Transformation
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Alpha: 1
+      Cell Size: 1
+      Class: rviz_default_plugins/Grid
+      Color: 160; 160; 164
+      Enabled: true
+      Line Style:
+        Line Width: 0.029999999329447746
+        Value: Lines
+      Name: Grid
+      Normal Cell Count: 0
+      Offset:
+        X: 0
+        Y: 0
+        Z: 0
+      Plane: XY
+      Plane Cell Count: 10
+      Reference Frame: <Fixed Frame>
+      Value: true
+    - Alpha: 1
+      Class: rviz_default_plugins/RobotModel
+      Collision Enabled: true
+      Description File: ""
+      Description Source: Topic
+      Description Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: "/robot_description"
+      Enabled: true
+      Links:
+        All Links Enabled: true
+        Expand Joint Details: true
+        Expand Link Details: true
+        Expand Tree: true
+        Link Tree Style: ""
+      Mass Properties:
+        Inertia: true
+        Mass: true
+      Name: RobotModel
+      TF Prefix: ""
+      Update Interval: 0
+      Value: true
+      Visual Enabled: true
+    - Class: rviz_default_plugins/TF
+      Enabled: true
+      Frame Timeout: 15
+      Frames:
+        All Enabled: true
+        base_link:
+          Value: true
+        link1:
+          Value: true
+        link2:
+          Value: true
+        world:
+          Value: true
+      Marker Scale: 1
+      Name: TF
+      Show Arrows: true
+      Show Axes: true
+      Show Names: true
+      Tree:
+        world:
+          base_link:
+            link1:
+              link2:
+                {}
+      Update Interval: 0
+      Value: true
+  Enabled: true
+  Global Options:
+    Background Color: 255; 255; 255
+    Fixed Frame: base_link
+    Frame Rate: 30
+  Name: root
+  Tools:
+    - Class: rviz_default_plugins/MoveCamera
+  Transformation:
+    Current:
+      Class: rviz_default_plugins/TF
+  Value: true
+  Views:
+    Current:
+      Class: rviz_default_plugins/Orbit
+      Distance: 7.319416522979736
+      Enable Stereo Rendering:
+        Stereo Eye Separation: 0.05999999865889549
+        Stereo Focal Distance: 1
+        Swap Stereo Eyes: false
+        Value: true
+      Focal Point:
+        X: 1.4304999922387651e-06
+        Y: 2.920600081779412e-06
+        Z: 2.38420000187034e-07
+      Focal Shape Fixed Size: true
+      Focal Shape Size: 0.05000000074505806
+      Invert Z Axis: false
+      Name: Current View
+      Near Clip Distance: 0.0010000000474974513
+      Pitch: 0.4602038562297821
+      Target Frame: world
+      Value: Orbit (rviz_default_plugins)
+      Yaw: 3.16182017326355
+    Saved:
+      - Class: rviz_default_plugins/Orbit
+        Distance: 7.319416522979736
+        Enable Stereo Rendering:
+          Stereo Eye Separation: 0.05999999865889549
+          Stereo Focal Distance: 1
+          Swap Stereo Eyes: false
+          Value: true
+        Focal Point:
+          X: 1.430511474609375e-06
+          Y: 2.9206275939941406e-06
+          Z: 2.384185791015625e-07
+        Focal Shape Fixed Size: true
+        Focal Shape Size: 0.05000000074505806
+        Invert Z Axis: false
+        Name: Orbit
+        Near Clip Distance: 0.009999999776482582
+        Pitch: 0.41520392894744873
+        Target Frame: world
+        Value: Orbit (rviz_default_plugins)
+        Yaw: 2.1368157863616943
+      - Class: rviz_default_plugins/Orbit
+        Distance: 7.319416522979736
+        Enable Stereo Rendering:
+          Stereo Eye Separation: 0.05999999865889549
+          Stereo Focal Distance: 1
+          Swap Stereo Eyes: false
+          Value: true
+        Focal Point:
+          X: 1.4304999922387651e-06
+          Y: 2.920600081779412e-06
+          Z: 2.38420000187034e-07
+        Focal Shape Fixed Size: true
+        Focal Shape Size: 0.05000000074505806
+        Invert Z Axis: false
+        Name: Orbit
+        Near Clip Distance: 0.0010000000474974513
+        Pitch: 0.41520392894744873
+        Target Frame: world
+        Value: Orbit (rviz_default_plugins)
+        Yaw: 2.1368157863616943
+Window Geometry:
+  Displays:
+    collapsed: false
+  Height: 1919
+  Hide Left Dock: false
+  Hide Right Dock: false
+  QMainWindow State: 000000ff00000000fd00000002000000000000048b0000056ffc0200000001fb000000100044006900730070006c00610079007301000001e20000056f0000018200ffffff0000000200000df700000168fc0100000002fb0000000a005600690065007700730100000000000006570000015f00fffffffb0000001c005400720061006e00730066006f0072006d006100740069006f006e0100000663000007940000010c00ffffff000009600000056f00000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
+  Transformation:
+    collapsed: false
+  Views:
+    collapsed: false
+  Width: 3575
+  X: 140
+  Y: 54
